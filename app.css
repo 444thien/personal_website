@@ -1,0 +1,111 @@
+header
+{
+    background-color : whitesmoke;
+    font-family: serif;
+    font-size: 13px;
+}
+
+.name
+{
+    font-family: serif;
+    margin: 0px 30px -50px 30px;
+    font-size: 25px;
+    font-weight: 525;
+    word-spacing: -3px;
+    letter-spacing: 1.5px;
+}
+
+.img-preview
+{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: auto;
+}
+
+.img-preview img
+{
+    max-width: 500px;
+    height: auto;
+}
+
+
+.project-sections 
+{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+
+.project-sections div
+{
+    background-color: whitesmoke;
+    margin: auto;
+    width: 100px;
+    height: 200px;
+}
+
+footer
+{
+    background-color: whitesmoke;
+}
+
+ul
+{
+    background-color: whitesmoke;
+    margin: 2px 0px 35px 0px;
+    padding: 0;
+    list-style-type: none;
+    letter-spacing: 1.5px;
+}
+
+li
+{
+    display: inline-block;
+    margin: 20px;
+}
+
+
+body{
+    background-color: whitesmoke;
+}
+
+.about-headers
+{
+    font-family: serif;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.footer
+{
+    font-family: serif;
+}
+
+.class1
+{
+    text-align: center;
+    color: rgb(170, 170, 170);
+    font-size: 13px;
+    padding: 5px 5px;
+}
+
+.list1
+{
+    margin: 5px;
+}
+
+.project_title
+{
+    font-size: 20px;
+    font-weight: 450;
+    letter-spacing: 2px;
+}
+
+.lang_used
+{
+    color: rgb(131, 129, 129);
+    font-size: 17px;
+    padding-bottom: 3px;
+}
