@@ -18,13 +18,14 @@ header
 .img-preview
 {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 100px;
-    margin: auto;
 }
 
-.img-preview img
+.img-preview figure
 {
+    margin: auto;
     max-width: 500px;
     height: auto;
 }
@@ -48,6 +49,8 @@ header
 footer
 {
     background-color: whitesmoke;
+    padding-top: 100px;
+    height: auto;
 }
 
 ul
@@ -78,6 +81,12 @@ body{
     margin-bottom: 5px;
 }
 
+.about-description
+{
+    font-family: serif;
+    font-size: 16px;
+}
+
 .footer
 {
     font-family: serif;
@@ -101,6 +110,7 @@ body{
     font-size: 20px;
     font-weight: 450;
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .lang_used
