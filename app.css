@@ -27,7 +27,7 @@ header
 {
     margin: auto;
     max-width: 500px;
-    height: auto;
+    height: 600px;
 }
 
 
@@ -43,7 +43,7 @@ header
     background-color: whitesmoke;
     margin: auto;
     width: 100px;
-    height: 200px;
+    height: auto;
 }
 
 footer
@@ -100,6 +100,9 @@ body{
     padding: 5px 5px;
 }
 
+/*
+Project Top
+*/
 .list1
 {
     margin: 5px;
@@ -118,4 +121,45 @@ body{
     color: rgb(131, 129, 129);
     font-size: 17px;
     padding-bottom: 3px;
+}
+
+.proj_description
+{
+    font-family: serif;
+}
+
+/*
+Projects 2
+*/
+
+.projects_2
+{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: normal;
+}
+
+.project_divider
+{
+    text-align: center;
+    font-family: serif;
+    font-size: 24px;
+}
+
+.project_title2
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.lang_used2
+{
+    color: rgb(131, 129, 129);
+}
+
+.proj_description2
+{
+    font-family: serif;
 }
